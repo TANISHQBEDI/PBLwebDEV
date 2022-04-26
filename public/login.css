@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    background-color:rgb(132, 189, 178);
+}
+header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+.headcontainer{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    
+}
+.logo{
+    position: relative;
+    color: rgb(32, 120, 104);
+    font-family: sans-serif;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    height: 100%;
+    width: 20%;
+}
+.logoname{
+    position: absolute;
+    top: 23px;
+}
+.hui{
+    position: relative;
+    /* top: 23px; */
+    font-family: sans-serif;
+    
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.5em;
+    float: right;
+    position: relative;
+    width: 80%;
+    height: 100%;
+}
+.addicon{
+    position: relative;
+    top: 23px;
+    color: rgb(92, 92, 92);
+    padding-right: 100px;
+    padding-left: 100px;
+    display: inline;
+    width: 20px;
+    height: 20px;
+}
+.addicon svg{
+    height: 30px;
+    width: 30px;
+}
+.addicon2{
+    position: relative;
+    top: 23px;
+    position: relative;
+    color: rgb(32, 120, 104);
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    display: inline;
+}
+.addicon2 svg{
+    height: 30px;
+    width: 30px;
+}
+.addicon2 svg:hover{
+    transition: all 1s;
+    transform: scale(1.5);
+}
+.opcont{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 50px;
+    padding-top: 10px;
+}
+.ophover{
+    padding-left: 30px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+.ophover a{
+    padding-bottom: 10px;
+}
+.addicon2:hover .ophover{
+    display: inline-block;
+}
+.ophover a:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.bckcontainer{
+    position: relative;
+    height: 620px;
+    width: 100%;
+}
+.bckimg1{
+    width: 100%;
+    height: 100%;
+    /* background: no-repeat url(https://cameoglassuk.co.uk/wp-content/uploads/2016/06/HEALTHY-FOOD-BACKGROUND-1.jpg); */
+    background: linear-gradient(-45deg, #ee7752, #ffa29f, #23a6d5, #23d5ab,rgb(56, 238, 39));
+    animation: infinite ease gradient 15s;
+    background-size: 400% 400%;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    text-align: center;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(32, 120, 104);
+}
+.formcontainer1{
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    width: 400px;
+    height: 350px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.2);
+}
+.signcont{
+  height: 30%;
+  font-family:'Ubuntu',sans-serif;
+  font-size: 2em;
+  color: #8C55AA;
+  /* text-shadow: #ee98ff 2px 2px 1px; */
+}
+.sign{
+  padding-top: 22px;
+}
+.un {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: bold;
+  font-size: 14px;
+  font-family:'Ubuntu',sans-serif;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.07);
+  margin-bottom: 50px;
+  margin-left: 2px;
+  text-align: center;
+  margin-bottom: 27px;  
+}
+.pass{
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 800;
+  font-size: 14px;
+  font-family:'Ubuntu',sans-serif;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.07);
+  margin-bottom: 50px;
+  margin-left: 2px;
+  text-align: center;
+  margin-bottom: 27px; 
+}
+.un:focus, .pass:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+.submit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    /* margin-left: 2%; */
+    font-size: 13px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+form a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #E1BEE7;
+  text-decoration: none
+}
+.submit:hover{
+  transform: scale(1.2);
+  transition: all 1s;
+}
+.registerli{
+    position: relative;
+    top: 20px;
+  font-family:'Ubuntu',sans-serif;
+  font-size: 1em;
+  color: #8C55AA;
+}
+.registerli:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.formcontainer2{
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    width: 400px;
+    height: 450px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.2);
+}
+.regcont{
+    height: 20%;
+    font-family:'Ubuntu',sans-serif;
+    font-size: 2em;
+    color: #8C55AA;
+    /* text-shadow: #ee98ff 2px 2px 1px; */
+  }
