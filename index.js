@@ -9,6 +9,8 @@ const session = require('express-session')
 var bodyParser = require('body-parser');
 const { dirname } = require('path');
 
+let loginstatus=false;
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 
@@ -57,8 +59,10 @@ app.get('/sign-in', (req, res) => {
         if (result[0] != undefined) 
         {
             req.session.loggedin = true
+            loginstatus=req.session.loggedin = true;
             req.session.username = username
             res.json({ login: req.session.loggedin, username: req.session.username })
+            console.log(loginstatus);
         } 
         else 
         {
@@ -102,11 +106,33 @@ app.get('/logout', (req, res) => {
     req.session.destroy(function(err) {
         res.redirect('/')
         if (err) throw err
+        loginstatus=false;
     })
 })
+// console.log(loginstatus);
+// if(loginstatus!=true)
+// {
+//     app.get('/menu',(req,res)=>{
+//         res.sendFile(path.join(__dirname)+"/public/menu/menu.html");
+//     })
+//     console.log("IN if condition");
+// }
+// else{
+//     app.get('/menu',(req,res)=>{
+//         res.sendFile(path.join(__dirname)+"/public/menu/menuLoggedIn.html");
+//     })
+//     console.log("IN else condition");
+// }
 
 app.get('/menu',(req,res)=>{
-    res.sendFile(path.join(__dirname)+"/public/menu/menu.html");
+    if(loginstatus!=true){
+        res.sendFile(path.join(__dirname)+"/public/menu/menu.html");
+        console.log("IN if condition");
+    }
+    else{
+        res.sendFile(path.join(__dirname)+"/public/menu/menuLoggedIn.html");
+        console.log("IN else condition");
+    }
 })
 
 const isAuth = (req, res, next) => {
