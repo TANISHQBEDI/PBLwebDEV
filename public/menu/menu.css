@@ -79,7 +79,22 @@ body{
     font-weight: bold;
     text-shadow: 3px 3px 0px yellow;
     background-image: url("https://www.acouplecooks.com/wp-content/uploads/2021/02/Painkiller-Cocktail-008.jpg");
+    animation: bev infinite 5s;
+    background-position: left;
 } 
+
+@keyframes bev{
+    0%{
+        background-position: left;
+    }
+    50%{
+        background-position: right;
+    }
+    100%{
+        background-position: left;
+    }
+}
+
 .crsr{
     cursor: pointer;
 }
