@@ -135,6 +135,10 @@ app.get('/menu',(req,res)=>{
     }
 })
 
+app.get('/about',(req,res)=>{
+        res.sendFile(path.join(__dirname)+"/public/about/about.html");
+})
+
 const isAuth = (req, res, next) => {
     if (req.session.loggedin) {
         next()
