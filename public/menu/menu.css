@@ -32,12 +32,13 @@ body{
     height: 99%;
     width: 25%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-shadow: 3px 3px 0px yellow;
     background-image: url("https://merriam-webster.com/assets/mw/images/gallery/gal-wap-slideshow-slide/canapes%20on%20tray-8975-4d6bf391c6cea60111e5ec8e5a681902@1x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .mc{
     padding-top: 2cm;
