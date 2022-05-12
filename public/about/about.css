@@ -61,7 +61,8 @@
     transform: translateY(-30%);
     
     color:rgba(209, 32, 32, 0.849);
-    padding: 10px 5px;
+    /* padding: 10px 5px; */
+    
 }
 .content h1{
     font-style:normal;
