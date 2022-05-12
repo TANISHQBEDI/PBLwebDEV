@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    background: rgb(41, 38, 38);
+    }
+.h1
+{
+    height: 50px;
+    padding-top: 15px;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(32, 120, 104);
+    text-align: center;
+    background-color: rgb(132, 189, 178);
+    text-decoration: solid;
+    text-shadow: 3px 3px  rgb(81, 136, 138);
+}
+.bckgrnd
+{
+    margin: 0;
+    height: 17.6cm;
+  /* background: no-repeat url("https://ichef.bbci.co.uk/news/976/cpsprodpb/107A9/production/_98779476_grind3.jpg"); */
+  /* background: rgb(41, 38, 38); */
+  background-size: 50cm;
+}   
+.hbck{
+    background-color:white;
+    width: 100%;
+    height: 80px;
+}
+
+.prodisplay{
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    width: 70%;
+    background: rgb(73, 116, 154);
+}
+.cartdisplay{
+    display: flexbox;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    width: 30%;
+    background: rgb(135, 199, 255);
+}

@@ -17,8 +17,9 @@ body{
 .bckgrnd
 {
     margin: 0;
-    height: 25.5cm;
+    height: 19.7cm;
   /* background: no-repeat url("https://ichef.bbci.co.uk/news/976/cpsprodpb/107A9/production/_98779476_grind3.jpg"); */
+  background-color: rgb(41, 38, 38);
   background-size: 50cm;
 }   
 .hbck{

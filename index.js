@@ -29,8 +29,8 @@ app.use(express.static(path.join(__dirname + '/public')))
 
 var con = sql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "agrawal05",
+    user: "TaDi",
+    password: "TURNIPE@RTh387",
     database: "pbl",
     insecureAuth: true
 });
@@ -38,6 +38,73 @@ con.connect((err) => {
     if (err) throw err;
     console.log("connected to my sql")
 })
+
+
+
+
+  let createUsers=`create table if not exists users(
+      ID int primary key auto_increment,
+      USERNAME varchar(100) not null,
+      EMAIL varchar(100) not null,
+      PASSWORD varchar(250) not null
+  )`
+
+  con.query(createUsers, function(err, results, fields) {
+    if (err) {
+      console.log(err.message);
+    }
+  });
+
+  let createPro = `create table if not exists products
+  (
+    id int primary key auto_increment,
+    items varchar(255) not null,
+    cost double not null
+  )`;
+
+con.query(createPro, function(err, results, fields) {
+    if (err) {
+      console.log(err.message);
+    }
+  });
+
+con.connect(function(err) {
+    if (err) throw err;
+    console.log("Connected!");
+    var sql = "INSERT IGNORE INTO products (id,items,cost) VALUES ?";
+    var values = 
+    [ ['111','frenchfries','67.0'],
+      ['112','clubsandwich','100.0'],
+      ['113','pasta','67.0'],   
+      ['114','masalapapad','100.0'],
+      ['115','tomatosoup','100.0'],
+      ['116','chickenlolipop','90.0'],
+      ['211','butterchicken','200.0'],
+      ['212','tandoori','170.0'],
+      ['213','paneerbuttermasala','175.0'],
+      ['214','paneerlababdar','190.0'],
+      ['215','dalmakhani','150.0'],
+      ['216','sarsokasaag','200.0'],
+      ['311','chocolatepastery','150.0'],
+      ['312','kasata','70.0'],
+      ['313','kulfi','65.0'],
+      ['314','vanillaicecream','80.0'],
+      ['315','brownie','125.0'],
+      ['316','pancake','150.0'],
+      ['411','mojito','150.0'],
+      ['412','fruitjuice','45.0'],
+      ['413','soda','75.0'],
+      ['414','mocktail','165.0'],
+      ['415','mangomilkshake','100.0'],
+      ['416','lassi','80.0']
+    ];
+    if(con.query)
+    con.query(sql, [values], function(err, result) {
+      if (err) throw err;
+      console.log("Number of records inserted: " + result.affectedRows);
+    });
+  });
+
 
 app.get('/', (req, res) => {
     res.render('index',{'username':req.session.username});
@@ -102,6 +169,11 @@ app.post('/sign-up', (req, res) => {
     
 })
 
+app.post('/menuLogIn',(req,res)=>{
+    let item = req.body.item;
+    con.query(`INSERT INTO products (item) VALUES ("${item}")`)
+})
+
 app.get('/logout', (req, res) => {
     req.session.destroy(function(err) {
         res.redirect('/')
@@ -110,15 +182,15 @@ app.get('/logout', (req, res) => {
     })
 })
 // console.log(loginstatus);
-// if(loginstatus!=true)
+// if(loginstatus==false)
 // {
-//     app.get('/menu',(req,res)=>{
+//     app.get('/menu',(_req,res)=>{
 //         res.sendFile(path.join(__dirname)+"/public/menu/menu.html");
 //     })
 //     console.log("IN if condition");
 // }
 // else{
-//     app.get('/menu',(req,res)=>{
+//     app.get('/menuLoggedIn',(_req,res)=>{
 //         res.sendFile(path.join(__dirname)+"/public/menu/menuLoggedIn.html");
 //     })
 //     console.log("IN else condition");

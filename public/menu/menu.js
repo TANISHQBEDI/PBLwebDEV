@@ -1,10 +1,28 @@
-// var item= document.querySelector(".item")
-let button= document.querySelector(".addCart")
-button.addEventListener('click',()=>{
-    let item=req.body.item;
-    con.query('SELECT productid FROM products', (err, result, fields) => {
-        if (err) throw err;
-        console.log(result)
-        con.query('ADD INTO cart',(item));
+var enter_cart = document.querySelector(".entercart")
+enter_cart.addEventListener('addcart', (event) => {
+    event.preventDefault()
+    console.log("I am here")
+    var item = document.querySelector('.item')
+    console.log({
+        item:item.value
     })
+    $.ajax({
+        url: "/menuLogIn",
+        type: "POST",
+        data: {
+            item:item.value
+        },
+        success: (data) => {
+            console.log(data.status)
+            if (data.status) {
+                window.location = "/menu/menuLoggedIn.html"
+            } else {
+                alert(data.message)
+            }
+        },
+        error: () => {
+            alert("Could not add to cart")
+        }
+    })
+    console.log("testing account creation")
 })
