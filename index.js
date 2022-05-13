@@ -30,7 +30,11 @@ app.use(express.static(path.join(__dirname + '/public')))
 var con = sql.createConnection({
     host: "localhost",
     user: "root",
+<<<<<<< HEAD
     password: "agrawal05",
+=======
+    password: "8624@SHaLu",
+>>>>>>> 530434e9afa3b26130c4109ba535afde1fa494b6
     database: "pbl",
     insecureAuth: true
 });
@@ -209,6 +213,10 @@ app.get('/menu',(req,res)=>{
 
 app.get('/about',(req,res)=>{
         res.sendFile(path.join(__dirname)+"/public/about/about.html");
+})
+
+app.get('/contact',(req,res)=>{
+    res.sendFile(path.join(__dirname)+"/public/contact/contact.html");
 })
 
 const isAuth = (req, res, next) => {

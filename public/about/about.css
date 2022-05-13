@@ -60,8 +60,14 @@
     top: 30%;
     transform: translateY(-30%);
     
+<<<<<<< HEAD
     color:rgba(50, 228, 10, 0.849);
     padding: 10px 5px;
+=======
+    color:rgba(209, 32, 32, 0.849);
+    /* padding: 10px 5px; */
+    
+>>>>>>> 530434e9afa3b26130c4109ba535afde1fa494b6
 }
 .content h1{
     font-style:normal;

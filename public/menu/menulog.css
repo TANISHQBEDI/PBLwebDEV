@@ -30,18 +30,38 @@ body{
 }
 
 .prodisplay{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     border: 0;
     height: 100%;
     width: 70%;
     background: rgb(73, 116, 154);
+    float: left;
 }
 .cartdisplay{
-    display: flexbox;
+    display: flex;
+    justify-content: center;
     margin: 0;
     border: 0;
     height: 100%;
     width: 30%;
     background: rgb(135, 199, 255);
+}
+
+.procont{
+    border-top: 10px;
+    height: 60px;
+    width: 50px;
+    background-color: aqua;
+}
+
+.marg{
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
