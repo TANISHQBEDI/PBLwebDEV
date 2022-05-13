@@ -75,17 +75,16 @@
     text-align: left;
 }
 h1{
-     color: aqua;
+     color: rgb(172, 248, 118);
      align-items: margin;
 }
-
 
 p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 27px;
     font-weight: lighter;
-    color: rgba(189, 132, 132, 0.914);
+    color: rgba(209, 160, 185, 0.914);
     font-size:25px ;
     font-style:initial;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
@@ -97,10 +96,12 @@ p{
     /* display:flex;
     flex-wrap: nowrap;
     justify-content: flex-start; */
-    align-items: center;
+    align-items:center;
 }
-.links h6{
-    color:rgb(160, 225, 225)
+.links h3{
+    color:rgba(75, 177, 177, 0.453)
+
+
     /* font-size: 15px; */
     /* margin-right: 50px; */
     /* padding:7px 6px; */
