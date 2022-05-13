@@ -5,8 +5,8 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url("https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.7)),url("https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/s/s/p104487-164732083062301efee1942.jpg?tr=tr:n-large");
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
@@ -60,39 +60,51 @@
     top: 30%;
     transform: translateY(-30%);
     
-    color:rgba(209, 32, 32, 0.849);
+
+    color:rgba(50, 228, 10, 0.849);
+    padding: 10px 5px;
+
+  /*  color:rgba(209, 32, 32, 0.849);*/
     /* padding: 10px 5px; */
-    
 }
-.content h1{
+
+.content{
     font-style:normal;
-    font-size: 30px;
-    margin-top: 60px;
+    /* font-size: 30px;
+    margin-top: 60px; */
     text-align: left;
 }
-.content p{
+h1{
+     color: rgb(172, 248, 118);
+     align-items: margin;
+}
+
+p{
     margin: 20px auto;
     font-weight: 100;
-    line-height: 25px;
-    font-weight: bolder;
-    color: rgb(189, 205, 18);
-    font-size:15px ;
-    font-style:inherit;
+    line-height: 27px;
+    font-weight: lighter;
+    color: rgba(209, 160, 185, 0.914);
+    font-size:25px ;
+    font-style:initial;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
 }
 .links{
     position:absolute;
-    top: 100%;
-    left:10%;
-    display:flex;
+    /* top: 100%;
+    left:10%; */
+    /* display:flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: flex-start; */
+    align-items:center;
 }
-.links h6{
-    color:rgb(42, 218, 50);
-    font-size: 15px;
-    margin-right: 50px;
-    padding:7px 6px;
+.links h3{
+    color:rgba(75, 177, 177, 0.453)
+
+
+    /* font-size: 15px; */
+    /* margin-right: 50px; */
+    /* padding:7px 6px; */
 }
    
 
