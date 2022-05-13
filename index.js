@@ -211,6 +211,10 @@ app.get('/about',(req,res)=>{
         res.sendFile(path.join(__dirname)+"/public/about/about.html");
 })
 
+app.get('/contact',(req,res)=>{
+    res.sendFile(path.join(__dirname)+"/public/contact/contact.html");
+})
+
 const isAuth = (req, res, next) => {
     if (req.session.loggedin) {
         next()

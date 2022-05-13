@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="mainhd">Payment</h1><hr>
+        <h2><ion-icon name="call-outline"></ion-icon> Contact Inforamtion<ion-icon name="call-outline"></ion-icon></h2><hr>
+        <p>Name <ion-icon name="person-outline"></ion-icon>:<input type="text" name="name" required></p>
+        <p>Address <ion-icon name="location-outline"></ion-icon>:<textarea name="address" id="address" cols="140" rows="5" required></textarea></p>
+        <p>Email<ion-icon name="mail-outline"></ion-icon>: <input type="email" name="email" id="email" required></p>
+        <p>Pincode <ion-icon name="pin-outline"></ion-icon>:<input type="number" name="pincode" id="pincode" required></p>
+        <h2><ion-icon name="wallet-outline"></ion-icon> Payment Information  <ion-icon name="cash-outline"></ion-icon></h2><hr>
+        <p>Card Type <ion-icon name="card-outline"></ion-icon> <ion-icon name="card-outline"></ion-icon> <ion-icon name="card-outline"></ion-icon>:
+            <select name="card type" id="card type" required>
+                <option value="">--Select Your Card Type--</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Master Card</option>
+                <option value="rupay">Rupay</option>
+                <option value="sodexo">Sodexo</option>
+            </select>
+        </p>
+     <p>Card Number <ion-icon name="card-outline"></ion-icon> <input type="number" name="cardnumber" id="cardnumber" required></p>
+     <p>Expiration Date <ion-icon name="card-outline"></ion-icon>: <input type="date" name="expdate" id="expdate" required></p>
+     <p>CVV: <input type="password" name="cvv" id="cvv" required></p>
+     <h2><input type="submit" value="Pay"></h2>
+    </form>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
