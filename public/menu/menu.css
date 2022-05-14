@@ -18,7 +18,7 @@ body{
 {
     margin: 0;
     height: 19.7cm;
-  /* background: no-repeat url("https://ichef.bbci.co.uk/news/976/cpsprodpb/107A9/production/_98779476_grind3.jpg"); */
+  background:url("https://images-ext-2.discordapp.net/external/nNea18QNuF4ZfIofVy9dP29cGfUcEWC3a6-88_2BAfo/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1260%26h%3D750%26dpr%3D1/https/images.pexels.com/photos/1860200/pexels-photo-1860200.jpeg?width=1005&height=670");
   background-color: rgb(41, 38, 38);
   /* background-size: 50cm; */
 }   
@@ -37,7 +37,7 @@ body{
     font-size: 2em;
     font-weight: bold;
     /* text-shadow: 3px 3px 0px yellow; */
-    background-image: url("https://merriam-webster.com/assets/mw/images/gallery/gal-wap-slideshow-slide/canapes%20on%20tray-8975-4d6bf391c6cea60111e5ec8e5a681902@1x.jpg");
+    /* background-image: url("https://merriam-webster.com/assets/mw/images/gallery/gal-wap-slideshow-slide/canapes%20on%20tray-8975-4d6bf391c6cea60111e5ec8e5a681902@1x.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -56,7 +56,7 @@ body{
     font-size: 2em;
     font-weight: bold;
     /* text-shadow: 2px 2px 0px yellow; */
-    background-image: url("https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken-.jpg");
+    /* background-image: url("https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken-.jpg"); */
     
 }
 .mc ul{
@@ -73,7 +73,7 @@ body{
     font-size: 2em;
     font-weight: bold;
      /* text-shadow: 3px 3px 0px yellow;  */
-    background-image: url("https://thekitchencommunity.org/wp-content/uploads/2021/03/Donut-768x512.jpg");
+    /* background-image: url("https://thekitchencommunity.org/wp-content/uploads/2021/03/Donut-768x512.jpg"); */
    
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ body{
     font-size: 2em;
     font-weight: bold;
     /* text-shadow: 3px 3px 0px yellow; */
-    background-image: url("https://www.acouplecooks.com/wp-content/uploads/2021/02/Painkiller-Cocktail-008.jpg");
+    /* background-image: url("https://www.acouplecooks.com/wp-content/uploads/2021/02/Painkiller-Cocktail-008.jpg"); */
     /* animation: bev infinite 5s;
     background-position: left; */
 } 

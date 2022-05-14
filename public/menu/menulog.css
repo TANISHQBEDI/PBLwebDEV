@@ -31,7 +31,7 @@ body{
 
 .prodisplay{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     margin: 0;
     border: 0;
     height: 100%;
@@ -50,6 +50,7 @@ body{
 }
 
 .procont{
+    white-space: 10px;
     border-top: 10px;
     height: 60px;
     width: 50px;
@@ -59,7 +60,7 @@ body{
 .marg{
     height: auto;
     width: 100%;
-    justify-content: space-between;
+    
     display: flex;
     margin-top: 10px;
     margin-left: 10px;
