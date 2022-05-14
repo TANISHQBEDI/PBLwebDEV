@@ -90,8 +90,8 @@ p{
 }
 .links{
     position:absolute;
-    /* top: 100%;
-    left:10%; */
+    top: 80%;
+    left:10%;
     display:flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
