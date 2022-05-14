@@ -43,7 +43,7 @@ header{
     height: 100%;
     /* background: url(https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/s/s/p104487-164732083062301efee1942.jpg?tr=tr:n-large); */
     background-size: 125% 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.7)),url("https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/s/s/p104487-164732083062301efee1942.jpg?tr=tr:n-large");
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.5)),url("https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/s/s/p104487-164732083062301efee1942.jpg?tr=tr:n-large");
     border-top: 10px solid white;
     background-position: left;
     animation: bck infinite 10s;
@@ -74,7 +74,7 @@ header{
 } */
 
 h1{
-     color: rgb(172, 248, 118);
+     color: rgb(243, 211, 49);
      align-items: margin;
 }
 
@@ -98,7 +98,7 @@ p{
     align-items:center;
 }
 .links h3{
-    color:rgba(106, 245, 6, 0.453)
+    color:rgba(227, 21, 34, 0.883)
 
 
     /* font-size: 15px; */
