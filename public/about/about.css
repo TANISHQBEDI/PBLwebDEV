@@ -83,7 +83,7 @@ p{
     font-weight: 100;
     line-height: 27px;
     font-weight: lighter;
-    color: rgba(209, 160, 185, 0.914);
+    color: rgba(247, 203, 226, 0.914);
     font-size:25px ;
     font-style:oblique;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
@@ -98,14 +98,15 @@ p{
     align-items:center;
 }
 .links h3{
-    color:rgba(75, 177, 177, 0.453)
+    color:rgba(106, 245, 6, 0.453)
 
 
     /* font-size: 15px; */
     /* margin-right: 50px; */
     /* padding:7px 6px; */
 }
-   
+
+    
 
 
 
