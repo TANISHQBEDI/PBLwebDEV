@@ -43,7 +43,7 @@ header{
     height: 100%;
     /* background: url(https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/s/s/p104487-164732083062301efee1942.jpg?tr=tr:n-large); */
     background-size: 125% 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.5)),url("https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/s/s/p104487-164732083062301efee1942.jpg?tr=tr:n-large");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.6)),url("https://im1.dineout.co.in/images/uploads/restaurant/sharpen/1/s/s/p104487-164732083062301efee1942.jpg?tr=tr:n-large");
     border-top: 10px solid white;
     background-position: left;
     animation: bck infinite 10s;
@@ -83,7 +83,7 @@ p{
     font-weight: 100;
     line-height: 27px;
     font-weight: lighter;
-    color: rgba(247, 203, 226, 0.914);
+    color: rgba(240, 214, 227, 0.914);
     font-size:25px ;
     font-style:oblique;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
