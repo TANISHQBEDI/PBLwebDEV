@@ -18,8 +18,9 @@ body{
 .bckgrnd
 {
     margin: 0;
-    height: 17.9cm;
-  background:url("https://images-ext-2.discordapp.net/external/nNea18QNuF4ZfIofVy9dP29cGfUcEWC3a6-88_2BAfo/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1260%26h%3D750%26dpr%3D1/https/images.pexels.com/photos/1860200/pexels-photo-1860200.jpeg?width=1005&height=670");
+    height: 19cm;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.3)),url("https://images-ext-2.discordapp.net/external/nNea18QNuF4ZfIofVy9dP29cGfUcEWC3a6-88_2BAfo/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1260%26h%3D750%26dpr%3D1/https/images.pexels.com/photos/1860200/pexels-photo-1860200.jpeg?width=1005&height=670");
+  /* background:url("https://images-ext-2.discordapp.net/external/nNea18QNuF4ZfIofVy9dP29cGfUcEWC3a6-88_2BAfo/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1260%26h%3D750%26dpr%3D1/https/images.pexels.com/photos/1860200/pexels-photo-1860200.jpeg?width=1005&height=670"); */
   background-color: rgb(41, 38, 38);
   border-bottom: solid 10px white;
   background-size: cover;
@@ -35,7 +36,7 @@ body{
     position: relative;
     float: left;
     height: 99%;
-    width: 25%;
+    width: 20%;
     text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -54,7 +55,7 @@ body{
     position: relative;
     float: left;
     height: 99%;
-    width: 25%;
+    width: 20%;
     text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -71,7 +72,7 @@ body{
     position: relative;
     float: left;
     height: 99%;
-    width: 25%; 
+    width: 20%; 
     text-align: center;
     font-size: 2em;
     font-weight: bold;
@@ -91,7 +92,7 @@ body{
     position: relative;
     float: left;
     height: 99%;
-    width: 25%;
+    width: 20%;
     text-align: center;
     border-right: 20px;
     font-size: 2em;
