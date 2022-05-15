@@ -8,7 +8,8 @@
 {
     height: 100%;
 	width: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://th.bing.com/th/id/R.b6191353e959c816de1f553ffc84c85a?rik=qdUsR0rZkhIm%2fg&riu=http%3a%2f%2foneriverpoint.com%2fwp-content%2fuploads%2f2016%2f08%2fhow-to-find-best-private-chefs-miami-1.jpg&ehk=cn1c3J%2bWJ0t53Z8ojFmRfvoSGYyCxiNtMCAIkAVEcpA%3d&risl=&pid=ImgRaw&r=0);
+	/* background-image: url(https://www.kamaxi.com/wp-content/uploads/2019/03/chef-plating-meals-768x563.jpg) ; */
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://www.kamaxi.com/wp-content/uploads/2019/03/chef-plating-meals-768x563.jpg);
 	background-position: center;
 	background-size: cover;
 	position: absolute;
