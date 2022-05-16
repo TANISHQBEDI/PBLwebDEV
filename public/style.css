@@ -1,9 +1,21 @@
+
+@font-face {
+    font-family: mathline;
+    src: url('Mathline\ TTF.ttf');
+}
+@font-face {
+    font-family: harilly;
+    src: url('Harilly\ Aleya.ttf');
+}
+@font-face {
+    font-family: avenger;
+    src: url('AvengeroRegular-zvgl.ttf');
+}
+
 body{
     margin: 0;
     background-color:rgb(132, 189, 178);
 }
-
-
 video {
     object-fit: fill;
     position: absolute;
@@ -47,7 +59,8 @@ header{
 .logo{
     position: relative;
     color: rgb(32, 120, 104);
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family:mathline;
     text-align: center;
     float: left;
     font-size: 1.8em;
@@ -240,10 +253,11 @@ nav div a{
 .description{
     height: 50px;
     width: auto;
-    font-family: sans-serif;
+    font-family: mathline;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 4em;
     color: rgb(32, 120, 104);
+    text-shadow: 2px 1px rgb(255, 255, 255);
     /* font-size: 72px; */
     /* background: -webkit-linear-gradient(45deg,rgb(255, 0, 0), rgb(0, 208, 255));
     -webkit-background-clip: text;

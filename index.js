@@ -1,3 +1,4 @@
+// Import modules and packages
 const express=require('express');
 const app=express();
 const server = require('http').createServer(app)
@@ -9,7 +10,7 @@ const session = require('express-session')
 var bodyParser = require('body-parser');
 const { dirname } = require('path');
 
-let loginstatus=false;
+let loginstatus = false;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
@@ -25,7 +26,7 @@ app.set('view engine','ejs');
 
 app.use(express.static(path.join(__dirname + '/public')))
 
-// sql config
+// sql configure
 
 var con = sql.createConnection({
     host: "localhost",
@@ -116,7 +117,7 @@ app.get('/login',(req,res)=>{
 })
 
 
-
+//login dom manipulation
 app.get('/sign-in', (req, res) => {
     let username = req.query.username;
     let password = req.query.password;
