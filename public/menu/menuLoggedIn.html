@@ -17,24 +17,13 @@
 
             <div class="prodisplay">
                 <!-- PRODUCTS DISPLAY HERE -->
-                <div class="marg">
+                <!-- <div class="marg"> -->
                     <div class="procont">
                         name
                         price
                     </div>
-                    <div class="procont">
-                        name
-                        price
-                    </div>
-                    <div class="procont">
-                        name
-                        price
-                    </div>
-                    <div class="procont">
-                        name
-                        price
-                    </div>
-                </div>
+                    
+                <!-- </div> -->
                 
             </div>
             <div class="cartdisplay">
@@ -43,5 +32,30 @@
         
     </div>
 <script src="menu.js"></script>
+<script>
+        // const prodisp=document.querySelector('.prodisplay');
+        // const mar=document.createElement('DIV');
+        // mar.className='marg';
+        // const pro=document.createElement('DIV');
+        // pro.className='procont'
+
+        function newPro() {
+            const prodisp=document.querySelector('.prodisplay');
+            const pro=document.createElement('DIV');
+            pro.className='procont'
+            prodisp.appendChild(pro);
+            
+            // mar.appendChild(pro);
+            console.log("FUNCTION");
+        }
+        
+        for(let i=0;i<23;i++)
+        {
+            console.log(i);
+            newPro();
+        }
+    
+
+</script>
 </body>
 </html>
