@@ -1,6 +1,6 @@
 @font-face {
     font-family: mathline;
-    src: url('Mathline\ TTF.ttf');
+    src: url('Mathline.ttf');
 }
 @font-face {
     font-family: harilly;
@@ -14,7 +14,7 @@ body{
     margin:0;
     padding: 0;
     background-color:rgb(132, 189, 178);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 header{
     position: relative;

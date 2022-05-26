@@ -30,8 +30,8 @@ app.use(express.static(path.join(__dirname + '/public')))
 
 var con = sql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "8624@SHaLu",
+    user: "TaDi",
+    password: "TURNIPE@RTh387",
     database: "pbl",
     insecureAuth: true
 });
