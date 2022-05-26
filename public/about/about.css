@@ -1,3 +1,15 @@
+@font-face {
+    font-family: mathline;
+    src: url('Mathline\ TTF.ttf');
+}
+@font-face {
+    font-family: harilly;
+    src: url('Harilly\ Aleya.ttf');
+}
+@font-face {
+    font-family: avenger;
+    src: url('AvengeroRegular-zvgl.ttf');
+}
 body{
     margin:0;
     padding: 0;
@@ -18,8 +30,8 @@ header{
 
 .logo{
     position: relative;
+    font-family:mathline;
     color: rgb(32, 120, 104);
-    font-family: sans-serif;
     text-align: center;
     float: left;
     font-size: 1.8em;
