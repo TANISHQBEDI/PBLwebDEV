@@ -8,8 +8,7 @@
 {
     height: 100%;
 	width: 100%;
-	/* background-image: url(https://www.kamaxi.com/wp-content/uploads/2019/03/chef-plating-meals-768x563.jpg) ; */
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://www.kamaxi.com/wp-content/uploads/2019/03/chef-plating-meals-768x563.jpg);
+   background-image: url(https://www.kamaxi.com/wp-content/uploads/2019/03/chef-plating-meals-768x563.jpg) ; 
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -128,6 +127,7 @@ a
 .input-field
 {
 	width: 100%;
+	color: chartreuse;
 	padding:10px 0;
 	margin:5px 0;
 	border-left:0;
@@ -149,13 +149,16 @@ a
 	outline: none;
 	border-radius: 30px;
 }
+form ::placeholder{
+	color: rgb(255, 255, 255);
+}
 .check-box
 {
 	margin: 30px 10px 34px 0;
 }
 span
 {
-	color:#777;
+	color:white;
 	font-size:12px;
 	bottom:68px;
 	position:absolute;
