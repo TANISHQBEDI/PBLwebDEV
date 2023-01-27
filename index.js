@@ -31,11 +31,7 @@ app.use(express.static(path.join(__dirname + '/public')))
 var con = sql.createConnection({
     host: "localhost",
     user: "root",
-<<<<<<< Updated upstream
-    password: "SQL@Sohan2002",
-=======
     password: "8624@SHaLu",
->>>>>>> Stashed changes
     database: "pbl",
     insecureAuth: true
 });
